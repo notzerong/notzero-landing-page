@@ -1,166 +1,209 @@
 <template>
   <div>
-    <Navbar />
-    <main class="main" style="background-color: #19191b;">
-      <section class="we">
-        <div class="pointers">
-          <span class="point"></span>
-          <span class="point1"></span>
-          <span class="point2"></span>
-          <span class="point3"></span>
-        </div>
-        <div class="design">
-          <h3 class="a">We design and build Digital</h3>
-          <h4 class="b">Experiences</h4>
-          <h5 class="c">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra quis facilisis sed urna. Id et et donec erat. Nunc nulla est amet, morbi pellentesque. In aliquet dolor purus congue in. Id sed duis neque tellus quam cras nulla.
-          </h5>
-          <button class="d"> Learn More </button>
-        </div>
-        <div class="headerImg">
-          <img src="~/assets/img/header img.png" alt="screens" class="headImg">
-        </div>
-      </section>
-      <section >
-        <section class="whoweare">
-          <div class="dots">
-            <span class="dot1"></span>
-            <span class="dot2"></span>
-            <span class="dot3"></span>
-            <span class="dot4"></span>
+    <Navbar active="home" />
+    <main class="main font-muli">
+      <div class="mt-16" style="background: #2c2c2c;">
+        <section class="md:flex mt-10">
+          <div class="w-1/6 mt-24 ml-8 hidden md:block">
+            <div class="active-dot mt-2"></div>
+            <div class="point mt-2"></div>
+            <div class="point mt-2"></div>
+            <div class="point mt-2"></div>
           </div>
-          <div class="who">
-            <div class="whiteline"></div>
-            <h3 class="we1">
-              who we are
-            </h3>
-            <div class="whiteline"></div>
-            <h4 class="are">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices dolor montes, vel, cursus integer. Malesuada erat amet sed eleifend id risus feugiat. Risus, id suspendisse sit leo. Sit tristique dictum est in et.
-            </h4>
+          <div class="xl:w-2/6 4/6 xl:pt-20 p-5">
+            <h3 class="text-4xl font-muli font-medium text-white">We design and build Digital</h3>
+            <vue-typed-js
+              :strings="['Experiences', 'Product', 'Software']"
+              :typeSpeed="100"
+              :backSpeed="50"
+              :loop="true"
+            >
+              <h1 class="text-primary font-poppins font-extrabold text-6xl typing"></h1>
+            </vue-typed-js>
+            <h5
+              class="font-muli text-xl text-white font-normal"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra quis facilisis sed urna. Id et et donec erat. Nunc nulla est amet, morbi pellentesque. In aliquet dolor purus congue in. Id sed duis neque tellus quam cras nulla.</h5>
+            <button class="bg-gray-100 mt-4 text-gray-900 rounded-md px-12 py-5 mb-5">Learn More</button>
           </div>
-          <div class="behind">
-            <section class="scenes">
-          <span class="play">
-            <img src="~/assets/img/Frame.png" alt="play icon" >
-            <span>see behind the scenes</span>
-          </span>
-              <section class="projects">
-                <div>
-                  <p class="numb">500+</p>
-                  <p class="status">completed Projects</p>
+          <div class="w-4/6 flex-1 hidden xl:block">
+            <img src="~/assets/img/header img.png" alt="screens" />
+          </div>
+        </section>
+      </div>
+      <section>
+        <section>
+          <div class="xl:w-2/4 w-full xl:ml-40 ml-2 mt-10">
+            <div class="whiteline"></div>
+            <h3 class="font-muli font-extrabold text-white text-5xl">Who We Are</h3>
+            <div class="whiteline"></div>
+            <h4
+              class="text-white xl:w-2/3 px-5 mt-4 text-lg xl:leading-6 font-muli font-normal"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices dolor montes, vel, cursus integer. Malesuada erat amet sed eleifend id risus feugiat. Risus, id suspendisse sit leo. Sit tristique dictum est in et.</h4>
+          </div>
+        </section>
+        <section>
+          <div class="flex">
+            <section class="hidden xl:w-1/6 xl:block"></section>
+            <section class="xl:w-3/6 w-full mx-2">
+              <div
+                class="bg-gray-500 flex xl:py-5 mt-10 rounded-lg"
+                style="background: #1F1F24; width: 20em"
+              >
+                <img src="~/assets/img/Frame.png" alt="play icon" />
+                <span class="text-white font-muli text-xl text-center m-auto">See behind the scenes</span>
+              </div>
+              <section class="text-white flex">
+                <div class="m-2">
+                  <p class="text-4xl text-primary">500+</p>
+                  <p class="xl:text-xl xl:text-5xl text-base font-bold">Completed Projects</p>
                   <div class="underlinestatus"></div>
-                  <p class="statustext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim tincidunt integer.</p>
+                  <p
+                    class="statustext"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim tincidunt integer.</p>
                 </div>
-                <div>
-                  <p class="numb">200+</p>
-                  <p class="status">completed Projects</p>
+                <div class="m-2">
+                  <p class="text-4xl xl:text-5xl text-primary">200+</p>
+                  <p class="xl:text-xl text-base font-bold">Completed Projects</p>
                   <div class="underlinestatus"></div>
-                  <p class="statustext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim tincidunt integer.</p>
+                  <p
+                    class="statustext"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim tincidunt integer.</p>
                 </div>
-                <div>
-                  <p class="numb">80+</p>
-                  <p class="status">completed Projects</p>
+                <div class="m-2">
+                  <p class="text-4xl xl:text-5xl text-primary">80+</p>
+                  <p class="xl:text-xl text-base font-bold">Completed Projects</p>
                   <div class="underlinestatus"></div>
-                  <p class="statustext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim tincidunt integer.</p>
+                  <p
+                    class="statustext"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim tincidunt integer.</p>
                 </div>
               </section>
             </section>
-            <section class="team">
-              <img src="~/assets/img/who we are.png" alt="team" srcset="">
+            <section class="xl:w-2/6 hidden xl:flex">
+              <img src="~/assets/img/who we are.png" alt="team" class="inline" />
+              <div class="mt-24 ml-8 hidden md:block">
+                <div class="point mt-2"></div>
+                <div class="active-dot mt-2"></div>
+                <div class="point mt-2"></div>
+                <div class="point mt-2"></div>
+              </div>
             </section>
           </div>
         </section>
-        <section class="whatwedo">
-          <div class="p">
-            <span class="p0"></span>
-            <span class="p1"></span>
-            <span class="p2"></span>
-            <span class="p3"></span>
-          </div>
-          <div class="border"></div>
-          <div class="e">
-            <h3 class="f">What we do</h3>
-          </div>
-          <div class="border"></div>
-          <h4 class="g">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices dolor montes, vel, cursus integer. Malesuada erat amet sed eleifend id risus feugiat. Risus, id suspendisse sit leo. Sit tristique dictum est in et.
-          </h4>
-
-          <section class="h">
-            <div class="i" style="border-right: 1px solid white">
-              <section>
-                <img src="~/assets/img/Vector.png" alt="vector" style="width: 30px; height: 30px">
-                <section class="stack">
-                  <h3>Front-end </h3>
-                  <h3>Development</h3>
-                </section>
-              </section>
-              <span class="j">
-            <span class="k"></span>
-            We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.
-          </span>
-            </div>
-            <div class="i" style="border-right: 1px solid white">
-              <section>
-                <img src="~/assets/img/Vector.png" alt="vector" style="width: 30px; height: 30px">
-                <section class="stack">
-                  <h3>Front-end </h3>
-                  <h3>Development</h3>
-                </section>
-              </section>
-              <span class="j">
-            <span class="k" style="width: 35px; height: 19px; background-color: aliceblue;"></span>
-            We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.
-          </span>
-            </div>
-            <div class="i" >
-              <section>
-                <img src="~/assets/img/Vector.png" alt="vector" style="width: 30px; height: 30px">
-                <section class="stack">
-                  <h3> Back-end </h3>
-                  <h3>Development</h3>
-                </section>
-              </section>
-              <span class="j">
-            <span class="k"></span>
-            We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.
-          </span>
+        <section class="mt-10">
+          <section class="w-full flex flex-row-reverse">
+            <div class="xl:w-2/4 w-full ml-2 mt-10">
+              <div class="whiteline"></div>
+              <h3 class="font-muli font-extrabold text-white text-5xl">What We Do</h3>
+              <div class="whiteline"></div>
+              <h4
+                class="text-white mt-4 px-5 xl:px-0 text-lg xl:leading-6 font-muli font-normal"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices dolor montes, vel, cursus integer. Malesuada erat amet sed eleifend id risus feugiat. Risus, id suspendisse sit leo. Sit tristique dictum est in et.</h4>
             </div>
           </section>
         </section>
+        <section class="whatwedo">
+          <section class="h">
+            <div class="i" style="border-right: 1px solid white">
+              <section>
+                <img src="~/assets/img/Vector.png" alt="vector" style="width: 30px; height: 30px" />
+                <section class="stack">
+                  <h3>Front-end</h3>
+                  <h3>Development</h3>
+                </section>
+              </section>
+              <span class="j">
+                <span class="k"></span>
+                We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.
+              </span>
+            </div>
+            <div class="i" style="border-right: 1px solid white">
+              <section>
+                <img src="~/assets/img/Vector.png" alt="vector" style="width: 30px; height: 30px" />
+                <section class="stack">
+                  <h3>Front-end</h3>
+                  <h3>Development</h3>
+                </section>
+              </section>
+              <span class="j">
+                <span class="k" style="width: 35px; height: 19px; background-color: aliceblue;"></span>
+                We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.
+              </span>
+            </div>
+            <div class="i">
+              <section>
+                <img src="~/assets/img/Vector.png" alt="vector" style="width: 30px; height: 30px" />
+                <section class="stack">
+                  <h3>Back-end</h3>
+                  <h3>Development</h3>
+                </section>
+              </section>
+              <span class="j">
+                <span class="k"></span>
+                We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.
+              </span>
+            </div>
+          </section>
+        </section>
+        <section class="newsletter">
+          <div>
+            <h3 class="text">Get started now!</h3>
+            <input type="text" placeholder="Your Email Address" name id class="input" />
+            <button type="submit" class="submit">Send mail</button>
+          </div>
+        </section>
       </section>
     </main>
+    <Footer active="home" />
   </div>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
 import Navbar from "~/components/Navbar";
+import Footer from "~/components/Footer";
+import Typed from "typed.js";
 
 export default {
   components: {
     Logo,
-    Navbar
+    Navbar,
+    Footer
   }
+  // created() {
+  //   console.log("hii", Typed);
+  //   let options = {
+  //     strings: ["Experience", "Products"],
+  //     typeSpeed: 40
+  //   };
+
+  //   let typed = new Typed(".typing", options);
+  // }
 };
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 *,
 *:before,
 *:after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
+  /* background: #19191b; */
+}
+.typed-cursor {
+  color: wheat;
+  font-size: 70px;
+}
+.typed-element {
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header {
   background: #2c2c2c;
@@ -169,8 +212,7 @@ body {
   top: 0;
   z-index: 999;
   flex: 1;
-  width: 100vw
-  /* border: 1px solid red; */
+  width: 100vw;
 }
 
 .navbar {
@@ -246,153 +288,81 @@ body {
   height: 100vh;
   width: 100vw;
 }
-.pointers {
-  position: absolute;
-  top: 17rem;
-  left: 4rem;
-}
 
 .point {
-  width: 11px;
-  height: 11px;
+  width: 6px;
+  height: 6px;
+  background: lightgrey;
+  border-radius: 50px;
+  margin-left: 1px;
+}
+
+.active-dot {
   background: #f2c94c;
+  width: 10px;
+  height: 10px;
   border-radius: 50px;
-  position: absolute;
-  left: -2px;
 }
-.point1 {
-  width: 5px;
-  height: 5px;
-  background: lightgrey;
-  border-radius: 50px;
-  position: absolute;
-  top: 25px;
-}
-.point2 {
-  width: 5px;
-  height: 5px;
-  background: lightgrey;
-  border-radius: 50%;
-  position: absolute;
-  top: 45px;
-}
-.point3 {
-  width: 5px;
-  height: 5px;
-  background: lightgrey;
-  border-radius: 50px;
-  position: absolute;
-  top: 70px;
-}
+
 .design {
   width: 450px;
   position: relative;
   left: 15rem;
   top: 9rem;
 }
-.a {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 23px;
-  color: #fff;
-}
-
-.b {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 90px;
-  line-height: 135px;
-  letter-spacing: 0.02em;
-  color: #f2c94c;
-}
-.c {
-  font-family: Muli;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 25px;
-  color: #fff;
-}
-.d {
-  background: #ffffff;
-  border-radius: 8px;
-  margin-top: 1rem;
-  outline: none;
-  border: none;
-  width: 10rem;
-  height: 4rem;
-  font-family: Muli;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 28px;
-  cursor: pointer;
-  color: #000000;
-}
-.headerImg {
-  margin-top: 3rem;
-  margin-left: 7rem;
-}
 
 .whoweare {
   padding: 3rem 0;
-
-;
 }
 .whiteline {
   min-height: 0.1rem;
   width: 20rem;
   background: white;
-  margin: 0.5rem 15rem;
 }
 .whoweare .dots {
-
   height: 150px;
   width: 150px;
   position: absolute;
   right: 0;
-  margin-top:14rem
+  margin-top: 14rem;
 }
 
 .whoweare .dot1 {
-  height:5px;
+  height: 5px;
   width: 5px;
   background-color: grey;
   position: absolute;
   border-radius: 50px;
   right: 3rem;
-  top:15px
+  top: 15px;
 }
 
-.whoweare .dot2{
+.whoweare .dot2 {
   height: 10px;
   width: 10px;
   background-color: #f2c94c;
   position: absolute;
-  border-radius:50px;
+  border-radius: 50px;
   right: 2.9rem;
-  top: 35px
+  top: 35px;
 }
-.whoweare .dot3{
+.whoweare .dot3 {
   height: 5px;
   width: 5px;
   background-color: grey;
   position: absolute;
-  border-radius:50px;
+  border-radius: 50px;
   right: 3rem;
-  top: 55px
+  top: 55px;
 }
-.whoweare .dot4{
+.whoweare .dot4 {
   height: 5px;
   width: 5px;
   background-color: grey;
   position: absolute;
-  border-radius:50px;
+  border-radius: 50px;
   right: 3rem;
-  top: 75px
+  top: 75px;
 }
 .whoweare .who .we1 {
   font-family: Muli;
@@ -418,12 +388,12 @@ body {
 }
 .main .behind {
   display: flex;
-  justify-content: end;
-  margin-left: 17rem
+  justify-content: flex-end;
+  margin-left: 17rem;
 }
 .main .behind .scenes {
 }
-.main .behind .scenes .play {
+.play {
   display: flex;
   align-items: center;
   background: #1f1f24;
@@ -431,7 +401,7 @@ body {
   border-radius: 20px;
   width: 20rem;
   cursor: pointer;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 
 .main .behind .scenes .projects {
@@ -439,19 +409,19 @@ body {
   display: flex;
   /* border: 1px solid yellowgreen; */
   width: 40vw;
-  margin: 1.5rem  3rem;
+  margin: 1.5rem 3rem;
 }
-.main .scenes .projects div{
-  margin: 0 1rem
+.main .scenes .projects div {
+  margin: 0 1rem;
 }
-.main .behind .scenes .projects .numb{
+.main .behind .scenes .projects .numb {
   font-family: Muli;
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
   line-height: 75px;
 
-  color: #FCD230;
+  color: #fcd230;
 }
 
 .main .behind .scenes .projects .status {
@@ -460,34 +430,33 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
-.main .behind .scenes .projects .statustext {
+.statustext {
   font-family: Muli;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.main .behind .scenes .projects  .underlinestatus {
+.underlinestatus {
   height: 0.02rem;
   width: 10rem;
   background-color: #fff;
   margin: 0.4rem 0;
 }
 
-.main .behind  .team {
-  position:  relative;
+.main .behind .team {
+  position: relative;
   right: 7rem;
   bottom: 5rem;
-
 }
 
-.main .behind .scenes .play span {
+.play span {
   font-family: Muli;
   font-style: normal;
   font-weight: normal;
@@ -504,44 +473,44 @@ body {
   padding: 1rem 0;
   position: relative;
 }
-.main .whatwedo .p{
+.main .whatwedo .p {
   height: 150px;
   width: 150px;
   position: absolute;
-  right: 0 ;
-  top: 22rem
+  right: 0;
+  top: 22rem;
 }
 
-.p0{
+.p0 {
   height: 5px;
-  width:5px ;
+  width: 5px;
   background-color: grey;
   position: absolute;
   right: 3rem;
   border-radius: 50px;
 }
-.p1{
+.p1 {
   height: 5px;
-  width:5px ;
+  width: 5px;
   background-color: grey;
   position: absolute;
   right: 3rem;
   border-radius: 50px;
-  top: 15px
+  top: 15px;
 }
-.p3{
+.p3 {
   height: 5px;
-  width:5px ;
+  width: 5px;
   background-color: grey;
   position: absolute;
   right: 3rem;
   border-radius: 50px;
-  top: 48px
+  top: 48px;
 }
-.p2{
+.p2 {
   height: 10px;
-  width:10px ;
-  background-color: #FCD230;
+  width: 10px;
+  background-color: #fcd230;
   position: absolute;
   right: 2.9rem;
   border-radius: 50px;
@@ -552,15 +521,13 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 58px;
-  line-height: 73px;
+  /* line-height: 73px; */
   /* identical to box height */
   display: flex;
   justify-content: flex-end;
   margin-right: 8rem;
   text-transform: capitalize;
-  color: #FFFFFF;
-
-
+  color: #ffffff;
 }
 
 .main .whatwedo .border {
@@ -568,8 +535,6 @@ body {
   width: 24rem;
   background: white;
   margin: 0.5rem 45rem;
-
-
 }
 
 .main .whatwedo .g {
@@ -582,45 +547,40 @@ body {
   color: #fff;
   width: 55vw;
   margin-left: 30rem;
-  padding:2rem 0;
-
-
+  padding: 2rem 0;
 }
-.main .whatwedo .h  {
+.main .whatwedo .h {
   display: flex;
   justify-content: center;
-  width:75vw;
-  height:40vh;
+  width: 75vw;
+  height: 40vh;
   margin-left: 12rem;
   border: 1px solid white;
   margin-top: 2rem;
-
 }
 .main .whatwedo .i {
-  padding:2rem
+  padding: 2rem;
 }
-.main .whatwedo  .i section{
+.main .whatwedo .i section {
   display: flex;
   padding-bottom: 1rem;
-;
 }
 .i .stack {
   color: #fff;
   display: flex;
   flex-direction: column;
-  margin-left:1rem;
-  height: max-content
-
+  margin-left: 1rem;
+  height: max-content;
 }
 
-.main  .h   .j {
+.main .h .j {
   font-family: Muli;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   margin-top: 314px !important;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .main .h .j span {
@@ -631,141 +591,61 @@ body {
 
 .main .i .k {
   height: 5px;
-  width:34px
+  width: 34px;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-
-  }
-  .logo {
-    margin-left: 0 !important;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-  }
-  .nav {
-    display: none;
-  }
-  .hamburger {
-    display: inline-block;
-  }
-  .main {
-    display: block;
-  }
-  .main .we {
-    height: 65vh
-  }
-  .main .we .pointers,
-  .main .we .headerImg {
-    display: none;
-  }
-  .main .we .design {
-    left: 10px;
-    top: 4.5rem;
-  }
-  .main .we .design .a {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 13px;
-    color: white;
-  }
-
-  .we .design .b {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 60px;
-    line-height: 95px;
-    letter-spacing: 0.02em;
-    color: #1a73e8;
-  }
-  .we .design .c {
-    font-family: Muli;
-    width: 350px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: white;
-  }
-  .main .whoweare {
-    display: block;
-    font-size: 34px;
-  }
-  .main .whoweare .dots{
-    display: none;
-  }
-  .main .whoweare .who .we1 {
-    margin: 0 10px;
-    font-size:2.5rem
-  }
-  .main .whoweare .who .whiteline {
-    display: none;
-  }
-
-  .main .whoweare .who .are {
-    margin: 1rem 20px;
-    width: 95vw;
-    /* border: 1px solid red */
-  }
-
-  .main .whoweare .behind{
-    display: flex;
-    margin:0
-  }
-
-
-
-  .main .whoweare .behind .scenes .play {
-    display: flex;;
-    border: 1px solid #FCD230;
-    margin: 0 2rem
-  }
-
-  .main .whoweare .behind .projects {
-    display: block;
-    width: 75vw;
-    margin: 1rem auto;
-    /* border:  1px solid rgb(204, 204, 204); */
-  }
-
-  .main .whoweare .behind .projects .statustext {
-    width:65vw;
-    font-size: 1.5rem;
-    line-height:23px
-  }
-  .main .whoweare .team{
-    display: none;
-  }
-
-  .main .whatwedo .p, .main .whatwedo .p {
-    display: none;
-  }
-  .main .whatwedo .e {
-
-    width:95vw;
-    font-size: 2rem;
-    margin: 0
-  }
-  .main .whatwedo .g {
-    margin:0;
-    width: 45vh;
-    line-height:23px;
-    font-size: 1.2rem;
-  }
-  .main .whatwedo .h {
-    display: flex;
-    flex-direction: column;
-    border:none;
-    height: max-content;
-    margin: 1rem auto;
-    width: 90vw;
-    justify-content: center;
-
-  }
+.main .newsletter {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.main .newsletter div .text {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.main .newsletter div .input {
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  width: 45vw;
+  height: 4.5rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #1f1f24;
+}
+
+.main .newsletter div .input::placeholder {
+  font-size: 20px;
+  padding: 30px;
+  color: #fff;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main .newsletter div .submit {
+  height: 4.48rem;
+  background: #1a73e8;
+  width: 10rem;
+  margin-left: -0.5rem;
+  padding-top: -1rem;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  color: white;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: capitalize;
+  /* line-height: 28px; */
+}
 </style>
