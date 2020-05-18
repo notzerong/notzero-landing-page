@@ -136,7 +136,9 @@
         <a name="contactus"></a>
         <section class="contactus xl:p-10 py:10 flex flex-wrap m-10 xl:text-center w-full">
           <div class="w-full xl:text-center xl:p-10 py-10">
-            <h3 class="font-poppins font-extrabold text-4xl mb-20 text-primary">We are here for you!</h3>
+            <h3
+              class="font-poppins font-extrabold xl:text-4xl text-3xl mb-20 text-primary"
+            >We are here for you!</h3>
             <a
               href="mailto:luteeph@gmail.com?cc=sodiqoladeni@gmail.com&subject=Hello%20from%20NotZero"
               target="_blank"
