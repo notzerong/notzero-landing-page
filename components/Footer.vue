@@ -10,7 +10,7 @@
     <section class="text-center text-white w-full m-10">
       <p>{{new Date().getFullYear()}} &copy; NotZero</p>
       <div>
-        <a href="mailto:info@notzero.com">info@notzero.com</a>
+        <a href="mailto:info@notzero.com" target="_blank">info@notzero.com</a>
       </div>
     </section>
   </footer>

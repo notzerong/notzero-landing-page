@@ -139,6 +139,7 @@
             <h3 class="font-poppins font-extrabold text-4xl mb-20 text-primary">We are here for you!</h3>
             <a
               href="mailto:luteeph@gmail.com?cc=sodiqoladeni@gmail.com&subject=Hello%20from%20NotZero"
+              target="_blank"
               class="bg-primaryblue text-white mt-10 hover:bg-yellow-500 font-bold rounded-md xl:px-12 xl:py-5 px-12 py-4"
             >Talk to us 📨!</a>
           </div>
