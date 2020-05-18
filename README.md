@@ -1,6 +1,6 @@
-# nuxt-not-zero
+# NotZero
 
-> Not zero digital agent and software developement firm official website
+> NotZero digital agent and software developement firm official website
 
 ## Build Setup
 

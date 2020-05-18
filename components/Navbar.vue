@@ -5,7 +5,7 @@
   >
     <div class="flex items-center justify-between align-middle px-4 py-3 sm:p-0 w-full">
       <div class="md:ml-24 mt-4">
-        <img class="h-8" src="~/assets/img/logo.svg" alt="Not Zero Logo" />
+        <img class="h-8" src="~/assets/img/logo.svg" alt="NotZero Logo" />
       </div>
       <div class="md:hidden mt-4">
         <button
