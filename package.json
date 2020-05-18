@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-not-zero",
+  "name": "NotZero",
   "version": "1.0.0",
-  "description": "Not zero digital agent and software developement firm official website",
+  "description": "NotZero digital agent and software developement firm official website",
   "author": "Luthfulahi Oseni",
   "private": true,
   "scripts": {
@@ -12,9 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.0.0",
-    "typed.js": "^2.0.11",
-    "vue-typed-js": "^0.1.2"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"

@@ -5,7 +5,7 @@
   >
     <div class="flex items-center justify-between align-middle px-4 py-3 sm:p-0 w-full">
       <div class="md:ml-24 mt-4">
-        <img class="h-8" src="~/assets/img/logo-white.svg" alt="Not Zero Logo" />
+        <img class="h-8" src="~/assets/img/logo.svg" alt="Not Zero Logo" />
       </div>
       <div class="md:hidden mt-4">
         <button
@@ -34,21 +34,30 @@
     >
       <nuxt-link to="/">
         <a
-          href="#"
-          :class="{'active': active === 'home'}"
+          href="#home"
+          :class="{'active': activeSection === 'home'}"
           class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800"
+          @click="setActiveSection('home')"
         >Home</a>
       </nuxt-link>
       <a
-        href="#"
+        href="#aboutus"
+        :class="{'active': activeSection === 'aboutus'}"
         class="mt-1 block px-2 pb-1 pt-2 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
+        @click="setActiveSection('aboutus')"
+      >About Us</a>
+      <a
+        href="#services"
+        :class="{'active': activeSection === 'services'}"
+        class="mt-1 block px-2 pb-1 pt-2 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
+        @click="setActiveSection('services')"
       >Services</a>
-      <nuxt-link to="/contact">
-        <span
-          :class="{'active': active === 'contact'}"
-          class="mt-1 block px-2 pb-1 pt-2 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
-        >Contact Us</span>
-      </nuxt-link>
+      <a
+        href="#contactus"
+        :class="{'active': activeSection === 'contactus'}"
+        class="mt-1 block px-2 pb-1 pt-2 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
+        @click="setActiveSection('contactus')"
+      >Contact Us</a>
       <a
         href="tel:+2349030836199"
         class="badge mt-1 block px-2 py-1 text-primary font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
@@ -65,7 +74,8 @@ export default {
   data() {
     return {
       isOpen: false,
-      atTopOfPage: true
+      atTopOfPage: true,
+      activeSection: "home"
     };
   },
   beforeMount() {
@@ -78,6 +88,10 @@ export default {
       } else {
         if (!this.atTopOfPage) this.atTopOfPage = true;
       }
+    },
+    setActiveSection(page) {
+      this.isOpen = false;
+      this.activeSection = page;
     }
   }
 };
@@ -86,7 +100,7 @@ export default {
 .active {
   @apply font-bold py-2 px-4 rounded bg-yellow-500 text-white;
   &:hover {
-    @apply bg-yellow-700;
+    @apply bg-yellow-600;
   }
 }
 header {

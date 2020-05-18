@@ -8,13 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#f2c94c"
+        primary: "#f2c94c",
+        primaryblue: "#1A73E8"
       }
     },
     fontFamily: {
       muli: ["Muli", "sans-serif"],
       poppins: ["Poppins", "sans-serif"]
-    }
+    },
+    backgroundColor: theme => ({
+      ...theme("colors"),
+      primaryblue: "#1A73E8"
+    })
   },
   variants: {},
   plugins: []
