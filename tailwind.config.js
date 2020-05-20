@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         primary: "#f2c94c",
         primaryblue: "#1A73E8"
+      },
+      width: {
+        "10/10": "27%"
       }
     },
     fontFamily: {

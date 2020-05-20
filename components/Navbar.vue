@@ -5,7 +5,7 @@
   >
     <div class="flex items-center justify-between align-middle px-4 py-3 sm:p-0 w-full">
       <div class="md:ml-24 mt-4">
-        <img class="h-8" src="~/assets/img/logo.svg" alt="NotZero Logo" />
+        <img class="h-8" src="~/assets/img/logo-white.svg" alt="NotZero Logo" />
       </div>
       <div class="md:hidden mt-4">
         <button
@@ -61,7 +61,7 @@
       >Contact Us</a>
       <a
         href="tel:+2349030836199"
-        class="badge mt-1 block px-2 py-1 text-primary font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
+        class="badge mt-1 block px-2 py-1 text-primaryblue font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
       >
         <img src="~/assets/img/phone.svg" class="inline" alt="Phone" /> +2349030836199
       </a>
@@ -99,9 +99,9 @@ export default {
 </script>
 <style>
 .active {
-  @apply font-bold py-2 px-4 rounded bg-yellow-500 text-white;
+  @apply font-bold py-2 px-4 rounded bg-primaryblue text-white;
   &:hover {
-    @apply bg-yellow-600;
+    @apply bg-yellow-500;
   }
 }
 header {
@@ -113,7 +113,7 @@ header.scrolled {
 }
 .badge {
   @apply rounded-full p-2;
-  border: 1px solid #f2c94c;
+  border: 1px solid #1a73e8;
   /* &:hover {
     @apply bg-yellow-500;
   } */

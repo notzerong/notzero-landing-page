@@ -5,16 +5,16 @@
       <div class="mt-16" style="background: #2c2c2c;">
         <section class="md:flex mt-10">
           <div class="xl:w-2/4 3/3 xl:pt-20 xl:ml-5 p-5">
-            <h3
-              class="xl:text-4xl text-3xl font-muli font-medium text-white"
-            >We design and build Digital</h3>
-            <h1 class="text-primary font-poppins font-extrabold xl:text-6xl text-5xl">Products</h1>
+            <h3 class="xl:text-4xl text-3xl font-muli font-medium text-white">We design and develop</h3>
+            <h1
+              class="text-primary font-poppins font-extrabold xl:text-6xl text-5xl"
+            >Digital Products</h1>
             <h5
               class="font-muli text-xl text-white font-normal"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra quis facilisis sed urna. Id et et donec erat. Nunc nulla est amet, morbi pellentesque. In aliquet dolor purus congue in. Id sed duis neque tellus quam cras nulla.</h5>
-            <button
+            >We develop a deep understanding of your business and the needs of your users. Grounding our design thinking into research, we'll help you create a solution that serves your customers and accelerate your business.</h5>
+            <!-- <button
               class="bg-primaryblue mt-4 text-white hover:bg-yellow-500 font-bold rounded-md xl:px-12 xl:py-5 px-12 py-4 mb-5"
-            >Learn More</button>
+            >Learn More</button>-->
           </div>
           <div class="w-2/4 hidden xl:block">
             <img src="~/assets/img/header img.png" alt="screens" />
@@ -29,27 +29,26 @@
             <h3 class="font-muli font-extrabold text-white text-5xl">Who We Are</h3>
             <div class="whiteline"></div>
             <h4
-              class="text-white xl:w-2/3 px-5 mt-4 text-lg xl:leading-6 font-muli font-normal"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices dolor montes, vel, cursus integer. Malesuada erat amet sed eleifend id risus feugiat. Risus, id suspendisse sit leo. Sit tristique dictum est in et.</h4>
+              class="text-white xl:w-2/3 mt-4 text-lg xl:leading-6 font-muli font-normal"
+            >Our engineering team is made up of dedicated, focused and experienced engineers, business expert and leaders. Our team helps drive digital product development and training experience by engaging and accessing clients across the entire development journey.</h4>
           </div>
         </section>
         <section>
           <div class="flex">
-            <section class="hidden xl:w-1/6 xl:block"></section>
-            <section class="xl:w-3/6 w-full mx-2">
-              <div
+            <section class="xl:w-3/6 w-full mx-2 mt-6 xl:ml-40">
+              <!-- <div
                 class="bg-gray-500 flex xl:py-5 mt-10 rounded-lg"
                 style="background: #1F1F24; width: 20em"
               >
                 <img src="~/assets/img/Frame.png" alt="play icon" />
                 <span class="text-white font-muli text-xl text-center m-auto">See behind the scenes</span>
-              </div>
+              </div>-->
               <section class="text-white flex">
-                <div class="m-2 w-1/2">
-                  <p class="text-4xl xl:text-5xl text-primary">500+</p>
+                <div class="w-1/2">
+                  <p class="text-4xl xl:text-5xl text-primary">8+</p>
                   <p class="xl:text-xl text-base font-bold">Projects</p>
                   <div class="underlinestatus"></div>
-                  <p class="statustext">We are an experiment lab with various ideas to build.</p>
+                  <!-- <p class="statustext">We are an experiment lab with various ideas to build.</p> -->
                 </div>
                 <!-- <div class="m-2">
                   <p class="text-4xl xl:text-5xl text-primary">300+</p>
@@ -59,13 +58,13 @@
                     class="statustext"
                   >We ensure clients are satisfied with their projects.</p>
                 </div>-->
-                <div class="m-2 w-1/2">
-                  <p class="text-4xl xl:text-5xl text-primary">80+</p>
+                <div class="w-1/2">
+                  <p class="text-4xl xl:text-5xl text-primary">5+</p>
                   <p class="xl:text-xl text-base font-bold">Clients</p>
                   <div class="underlinestatus"></div>
-                  <p
+                  <!-- <p
                     class="statustext"
-                  >Our clients are always ready to put in words for us! reach out today.</p>
+                  >Our clients are always ready to put in words for us! reach out today.</p>-->
                 </div>
               </section>
             </section>
@@ -88,50 +87,48 @@
               <h3 class="font-muli font-extrabold text-white text-5xl">What We Do</h3>
               <div class="whiteline"></div>
               <h4
-                class="text-white mt-4 xl:px-10 xl:pr-20 text-lg xl:leading-6 font-muli font-normal"
-              >We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain.</h4>
+                class="text-white mt-4 xl:pr-32 text-lg xl:leading-6 font-muli font-normal"
+              >We take pride in building digital products and teaching others to do the same, we empower businesses through innovative digital product development and training.</h4>
             </div>
           </section>
         </section>
-        <section>
-          <section class="flex xl:flex-no-wrap flex-wrap text-white">
-            <div class="xl:w-1/3 w-full xl:m-10 xl:p-10 m-5 p-5" style="border: 1px solid white">
-              <section>
-                <img src="~/assets/img/fe.svg" alt="vector" />
-                <section class="text-3xl text-primary font-poppins">
-                  <h3>
-                    Front-end
-                    <br />Development
-                  </h3>
-                </section>
-              </section>
-              <span>We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.</span>
-            </div>
-            <div class="xl:w-1/3 w-full xl:m-10 xl:p-10 m-5 p-5" style="border: 1px solid white">
-              <section>
-                <img src="~/assets/img/mobile.svg" alt="vector" />
-                <section class="text-3xl text-primary font-poppins">
-                  <h3>
-                    Mobile
-                    <br />Development
-                  </h3>
-                </section>
-              </section>
-              <span>We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.</span>
-            </div>
-            <div class="xl:w-1/3 w-full xl:m-10 xl:p-10 m-5 p-5" style="border: 1px solid white">
-              <section>
-                <img src="~/assets/img/be.svg" alt="vector" />
-                <section class="text-3xl text-primary font-poppins">
-                  <h3>
-                    Back-end
-                    <br />Development
-                  </h3>
-                </section>
-              </section>
-              <span>We build brilliant digital products and teach others to do the same. As a leading web design and digital marketing company in Nigeria. We’ve helped hundreds of businesses achieve success. Find out what we.</span>
-            </div>
-          </section>
+        <section class="flex flex-wrap text-white" style="width: 90%; margin: auto">
+          <Card
+            icon="fe.svg"
+            name1="Front-end"
+            name2="Development"
+            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+          />
+          <Card
+            icon="be.svg"
+            name1="Backend"
+            name2="Development"
+            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+          />
+          <Card
+            icon="mobile.svg"
+            name1="Android"
+            name2="Applications"
+            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+          />
+          <Card
+            icon="ios.svg"
+            name1="IOS"
+            name2="Application"
+            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+          />
+          <Card
+            icon="design.svg"
+            name1="UI/UX"
+            name2="Design"
+            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+          />
+          <Card
+            icon="blockchain.svg"
+            name1="AI"
+            name2="Blockchain"
+            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+          />
         </section>
         <a name="contactus"></a>
         <section class="contactus xl:p-10 py:10 flex flex-wrap m-10 xl:text-center w-full">
@@ -156,12 +153,14 @@
 import Logo from "~/components/Logo.vue";
 import Navbar from "~/components/Navbar";
 import Footer from "~/components/Footer";
+import Card from "~/components/Card";
 
 export default {
   components: {
     Logo,
     Navbar,
-    Footer
+    Footer,
+    Card
   }
 };
 </script>
