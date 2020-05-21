@@ -4,8 +4,8 @@
       <img src="~/assets/img/logo2.png" alt="notzero logo" />
     </div>
     <div class="xl:w-1/5 w-full xl:text-center my-3">
-      <a href="tel:+2349030836199">
-        <img src="~/assets/img/phoneyellow.svg" class="inline" alt="Phone" /> +2349030836199
+      <a href="tel:+2348155507746">
+        <img src="~/assets/img/phoneyellow.svg" class="inline" alt="Phone" /> +2348155507746
       </a>
     </div>
     <div class="xl:w-1/5 w-full xl:text-center my-3">

@@ -60,10 +60,10 @@
         @click="setActiveSection('contactus')"
       >Contact Us</a>
       <a
-        href="tel:+2349030836199"
+        href="tel:+2348155507746"
         class="badge mt-1 block px-2 py-1 text-primaryblue font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
       >
-        <img src="~/assets/img/phone.svg" class="inline" alt="Phone" /> +2349030836199
+        <img src="~/assets/img/phone.svg" class="inline" alt="Phone" /> +2348155507746
       </a>
     </nav>
   </header>
