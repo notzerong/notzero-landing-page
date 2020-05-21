@@ -95,38 +95,38 @@
         <section class="flex flex-wrap text-white" style="width: 90%; margin: auto">
           <Card
             icon="fe.svg"
-            name1="Front-end"
+            name1="Web"
             name2="Development"
-            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+            description="At NotZero Technologies we build carefully crafted websites and web applications that suits your business or that wonderful idea of yours, our web developemnt team consist of great frontend engineers and accessbility specialist bring our business to everyone in the world."
           />
           <Card
             icon="be.svg"
-            name1="Backend"
+            name1="API/Server Side"
             name2="Development"
-            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+            description="Our backend engineers take great pride in building proper server side architecture and software that powers every aspect of your business, giving your business it's scalability and power to suit all your customers need."
           />
           <Card
             icon="mobile.svg"
             name1="Android"
             name2="Applications"
-            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+            description="At NotZero Technologies we understand the fact that businesses want to bring solutions to their users as close as possible, at such we have curated some of the best industry android engineer expert to make that happen for you by building wonderful android application that stays on your users phone all the time."
           />
           <Card
-            icon="ios.svg"
+            icon="ios2.svg"
             name1="IOS"
             name2="Application"
-            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+            description="At NotZero Technologies we understand the fact that businesses want to bring solutions to their users as close as possible, at such we have curated some of the best industry ios engineer expert to make that happen for you by building wonderful ios application that stays on your users phone all the time."
           />
           <Card
-            icon="design.svg"
+            icon="design2.svg"
             name1="UI/UX"
             name2="Design"
-            description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
+            description="Our design thought process over the years has proven to be intuitive and as a startup that is customer centric we design with your customers in mind, thereby providing a solution that suits the needs of your business"
           />
           <Card
-            icon="blockchain.svg"
-            name1="AI"
-            name2="Blockchain"
+            icon="training2.svg"
+            name1="Training"
+            name2=""
             description="We take pride in building and teaching others how to build great digital product, following industry best practices and taking great engineering process. Our engineers are versitile and experience in their individual domain."
           />
         </section>
@@ -137,7 +137,7 @@
               class="font-poppins font-extrabold xl:text-4xl text-3xl mb-20 text-primary"
             >We are here for you!</h3>
             <a
-              href="mailto:luteeph@gmail.com?cc=sodiqoladeni@gmail.com&subject=Hello%20from%20NotZero"
+              href="mailto:info@notzero.ng?cc=luthfulahi@notzero.ng, sodiqoladeni@notzero.ng&subject=Hello%20from%20NotZero"
               target="_blank"
               class="bg-primaryblue text-white mt-10 hover:bg-yellow-500 font-bold rounded-md xl:px-12 xl:py-5 px-12 py-4"
             >Talk to us 📨!</a>

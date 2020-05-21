@@ -12,7 +12,8 @@ export default {
         hid: "description",
         name: "description",
         content: process.env.npm_package_description || ""
-      }
+      },
+      {hid: "keywords", name: 'keywords', content: 'notzero, not zero, software company,software company in Ibadan, Ibadan, Digital agency Ibadan, tech startup in Ibadan, web design, web agency Ibadan'},
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }]
   },
