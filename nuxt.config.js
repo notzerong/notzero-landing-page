@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "NotZero Technologies",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -13,7 +13,7 @@ export default {
         name: "description",
         content: process.env.npm_package_description || ""
       },
-      {hid: "keywords", name: 'keywords', content: 'notzero, not zero, software company,software company in Ibadan, Ibadan, Digital agency Ibadan, tech startup in Ibadan, web design, web agency Ibadan'},
+      {hid: "keywords", name: 'keywords', content: 'notzero, not zero, software company,software company in Ibadan, Ibadan, Digital agency Ibadan, tech startup in Ibadan, web design, web agency Ibadan, android app development, ios app development, ibadan startup, nigeria startup, web development, software training in ibadan, software training in nigeria, digital agency in nigeria, tech startup in nigeria, software company in nigeria'},
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }]
   },
