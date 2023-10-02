@@ -59,11 +59,10 @@
         class="mt-1 block px-2 pb-1 pt-2 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
         @click="setActiveSection('contactus')"
       >Contact Us</a>
-      <a
-        href="tel:+2348155507746"
+      <a :href="`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`" target="_blank"
         class="badge mt-1 block px-2 py-1 text-primaryblue font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2"
       >
-        <img src="~/assets/img/phone.svg" class="inline" alt="Phone" /> +2348155507746
+        <img src="~/assets/img/phone.svg" class="inline" alt="Phone" /> {{phoneNumber}}
       </a>
     </nav>
   </header>
@@ -74,9 +73,11 @@ export default {
   props: ["active"],
   data() {
     return {
+      phoneNumber: '+2348038325215',
       isOpen: false,
       atTopOfPage: true,
-      activeSection: "home"
+      activeSection: "home",
+      message: "Hello NotZero"
     };
   },
   beforeMount() {
