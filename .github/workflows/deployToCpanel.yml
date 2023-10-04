@@ -34,3 +34,5 @@ jobs:
           **/.**
           **/.nuxt*
           **/.nuxt*/**
+          **/assets*
+          **/assets*/**
