@@ -39,6 +39,8 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          exclude: |
-          **.editorconfig**
-          **.gitignore**
+          exclude: /
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/.**
