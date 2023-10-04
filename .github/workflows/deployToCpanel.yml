@@ -40,5 +40,5 @@ jobs:
           protocol: ftps
           port: 21
           exclude: |
-          .editorconfig
-          .gitignore
+          **.editorconfig**
+          **.gitignore**
